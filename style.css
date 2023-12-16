@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html::-webkit-scrollbar{
+    display: none;
+}
+header{
+    height: 13vh;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    height: 33px;
+    padding-left: 1rem;
+}
+header svg{
+    height: 2.5rem;
+    width: 3rem;
+    fill: white;
+    padding-right: 1rem;
+}
+.m1{
+    height: 100vh;
+}
+.m1 video{
+    position: absolute;
+    z-index: -1;
+}
+.m1 h1{
+    font-size: 5.5rem;
+    -webkit-text-stroke: 3.1px white;
+    color: transparent;    
+}
+.m1 h6{
+    font-size: 17.5px;
+}
+.p1{
+    padding: 0 0 4.4rem 6.6rem;
+    position: relative;
+}
+.p2{
+    height: 18.5vh;
+    background-color: #307FE2;
+    display: flex;
+    justify-content: center;
+}
+.p2 form{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #003b84;
+    background-color: #307FE2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80rem;
+}
+.p2 form select{
+    color: #fff;
+    background: transparent;
+    border: transparent;
+    border-bottom: 1px solid black;
+}
+.m2{
+    height: auto;
+    background-color: white;
+    padding:0 9.5rem 0;
+    position: relative;
+}
+.m2 a:first-child{
+    position: sticky;
+    transform: translate(80.5rem ,7.5rem);
+    top: 30rem;
+    border: 1px solid #000;
+    display: inline-block;
+    padding:0.8rem;
+    fill: #6c757d;
+    z-index: 5;
+}
+-we
+.car1{
+    height:68vh;
+    display:flex;
+}
+.car1 .left{
+    height: 100%;
+    width: 40.6%;
+    background-color: #6E1618;
+}
+.car1 img{
+    height: 22rem;
+    margin: 4rem 6.8rem;
+    position: absolute;
+}
+.car1 .right{
+    height: 100%;
+    width: calc(100% - 40.6%);
+    padding: 6.8rem 10.3rem;
+    background-color: #F8F8F8;
+}
+.car h1{
+    color: #383737;
+    font-size: 3.7rem;
+    margin-bottom: 1rem;
+}
+.car h5{
+    color: #383737;
+}
+.car h6{
+    color: #7A8084;
+    font-size: 1.1rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+.car a{
+    font-weight: 100;
+    margin-right: 1.5rem;
+    text-decoration: none;
+}
+.car a:link{
+    color: #007bff;
+}
+.car a::after{
+    content: "→";
+}
+.bot{
+    display: flex;
+    margin-bottom: 2.5rem;
+}
+.car2{
+    height:80vh;
+    display:flex;
+    position: relative;
+}
+.car2 .left{
+    height: 100%;
+    width: 59%;
+    padding: 6.8rem 14rem 6.8rem 6.7rem;
+    background-color: #F8F8F8;
+}
+.car2 .right{
+    height: 100%;
+    width: calc(100% - 59%);
+    background-color: #00286F;
+}
+.car2 img{
+    height: 22rem;
+    margin-top: 6.6rem;
+    position: absolute;
+    right: 5.4rem;
+}
+
+.car3{
+    height:68vh;
+    display:flex;
+}
+.car3 .left{
+    height: 100%;
+    width: 40.6%;
+    background-color: #341213;
+}
+.car3 img{
+    height: 22rem;
+    margin: 4rem 6.6rem;
+    position: absolute;
+}
+.car3 .right{
+    height: 100%;
+    width: calc(100% - 40.6%);
+    padding: 6.8rem 10.3rem;
+    background-color: #F8F8F8;
+}
+
+.car4{
+    height:71vh;
+    display:flex;
+    position: relative;
+}
+.car4 .left{
+    height: 100%;
+    width: 59%;
+    padding: 6.8rem 14rem 6.8rem 6.7rem;
+    background-color: #F8F8F8;
+}
+.car4 .right{
+    height: 100%;
+    width: calc(100% - 59%);
+    background-color: #1864B3;
+}
+.car4 img{
+    height: 22rem;
+    margin-top: 4.8rem;
+    position: absolute;
+    right: 5.3rem;
+}
+
+.car5{
+    height:68vh;
+    display:flex;
+}
+.car5 .left{
+    height: 100%;
+    width: 40.6%;
+    background-color: #261866;
+}
+.car5 img{
+    height: 22rem;
+    margin: 4rem 6.8rem;
+    position: absolute;
+}
+.car5 .right{
+    height: 100%;
+    width: calc(100% - 40.6%);
+    padding: 6.8rem 10.3rem;
+    background-color: #F8F8F8;
+}
+
+.car6{
+    height:62vh;
+    display:flex;
+    position: relative;
+}
+.car6 .left{
+    height: 100%;
+    width: 59%;
+    padding: 6.8rem 14rem 6.8rem 6.7rem;
+    background-color: #F8F8F8;
+}
+.car6 .right{
+    height: 100%;
+    width: calc(100% - 59%);
+    background-color: #D2C924;
+}
+.car6 img{
+    height: 22rem;
+    margin-top: 2.5rem;
+    position: absolute;
+    right: 5.2rem;
+}
+
+.car7{
+    height:68vh;
+    display:flex;
+}
+.car7 .left{
+    height: 100%;
+    width: 40.6%;
+    background-color: #CAAC7C;
+}
+.car7 img{
+    height: 22rem;
+    margin: 4rem 6.7rem;
+    position: absolute;
+}
+.car7 .right{
+    height: 100%;
+    width: calc(100% - 40.6%);
+    padding: 6.8rem 10.3rem;
+    background-color: #F8F8F8;
+}
+
+.last{
+    height: 90vh;
+}
+.l1{
+    height: 25rem;
+    width: 100%;
+    display: flex;
+    margin-bottom: 5rem;
+}
+.l1 .lleft{
+    width:38.3rem;
+    animation: anim1 1s 0.5s;
+}
+.l1 .lright{
+    width: calc(100% - 38.3rem);
+    background-color: #F8F8F8;
+    padding: 2rem 0 2rem 3.5rem;
+}
+.l1 h3{
+    animation: anim2 1s 0.5s ease-out;
+}
+.l1 h6{
+    color: #7A8084;
+    font-size: 1.1rem;
+    font-weight: 100;
+    margin: 2rem 7rem 10rem 0;
+    animation: anim2 1s 0.5s ease-out;
+}
+.l1 a{
+    font-weight: 100;
+    margin-right: 1.5rem;
+    text-decoration: none;
+}
+.l1 a:link{
+    color: #007bff;
+}
+.l1 a::after{
+    content: "→";
+}
+
+@keyframes anim1 {
+    from{
+        transform: translateY(5rem);
+        opacity: 0%;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 100%;
+    }
+}
+@keyframes anim2 {
+    from{
+        scale: 0;
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+.l2{
+    color: #7A8084;
+}
+
+footer{
+    height: 49.4vh;
+    background-color: #383737;
+}
+footer .f11{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4rem 0 0 6.5rem;
+    width: 83vw;
+}
+.f1{
+    height: 14rem;
+    width: 30rem;
+    margin-right: 22rem;
+}
+.f1 h6{
+    margin-top: 1rem;
+}
+.f2{
+    height: 14rem;
+    /* background-color:gray ; */
+    width: 17rem;
+    margin-right: 9rem;
+}
+.f2 h6{
+    margin-top: 1.3rem;
+}
+.f3{
+    height: 14rem;
+    width: 20rem;
+    /* background-color:cadetblue ; */
+}
+.f3 img{
+    height: 1rem;
+    margin-right: 0.5rem;
+
+}
+.f3 div{
+    margin-top: 1rem;
+}
+.f22{
+    height: 20%;
+}
+.f22 h6{
+    color: #EAEAEC;
+    padding: 0.7rem 0 0 5rem;
+}
